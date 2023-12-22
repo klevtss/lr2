@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР2</title>
+    <style>
+        #unique-id {
+    color: rgb(35, 89, 250);
+    font-size: 18px;
+    text-align: center;
+        
+   
+}
+
+    .external-style {
+    text-align: center;
+    color: rgb(5, 5, 103);
+
+        }
+
+        .inline-style {
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        .center-container {
+    display: flex;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.positioned-element {
+    color: rgb(5, 5, 32);
+    font-size: 25px;
+    width: 220px;
+    height: 60px;
+    background-color: #fbcdcd;
+    border: 1px solid #ccc;
+}
+
+        .slider {
+            width: 110px; 
+            height: 65px;
+            background-color: rgb(255, 217, 0);
+            position: fixed;
+            z-index: 10;
+            top: 40px;
+            left: -90px;
+            border-radius: 0px 12px 12px 0px;
+            display: flex; 
+            align-items: center;
+        }
+
+        .slider:hover, .slider:focus {
+            left: 0px;
+        }
+
+        .slider-img {
+            margin-left: 13px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .text-container {
+            margin-left: 10px;
+        }
+
+        .text-container a {
+            text-decoration: none;
+            color: #000; 
+        }
+
+        #content {
+            height: 150vh;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="inline-style">Лабораторна робота з використанням CSS</h1>
+    <p style="text-align:center;">Роботу виконала студент групи кіукіу-21-4</p>
+
+    <div style="color: green;text-align:center;">Клевцова Катерина</div>
+    <style>
+        body {
+            background-color: #dbf8f1;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+
+    <p class="external-style">Лабораторна робота №2</p>
+    <p id="unique-id">Варіант №4</p>
+    <div class="center-container">
+    <div class="positioned-element">22.12.2023</div>
+    </div>
+    <div class="slider">
+        <img class="slider-img" src="github.png" alt="crying-cat-gif" />
+        <div class="text-container">
+            <p><a href="https://klevtss.github.io/lr2/">lr2</a></p>
+        </div>
+    </div>
+    
+ 
+</body>
+
+</html>
